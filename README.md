@@ -1,35 +1,43 @@
-# 🚦 Fine-tuned Modified Faster R-CNN for Traffic Obstacle Detection
+# 🚗 Enhanced Traffic Obstacle Detection System
 
-![Python](https://img.shields.io/badge/Python-3.8-blue.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.5-green.svg)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.9-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+A **Fine-tuned Modified Faster R-CNN (ResNet-50)** based system that aims to boost the accuracy and efficiency of traffic obstacle detection in real-time environments. This intelligent model enhances road safety by detecting and localizing obstacles with high precision, helping build a more automated and secure transportation system.
 
 ---
 
-## 📌 Overview
+## 📌 Project Overview
 
-This project implements a **Fine-tuned Modified Faster R-CNN (Region-Based Convolutional Neural Network)** system designed to enhance traffic obstacle identification and promote safer, smarter transportation infrastructure.
+This project implements a **Modified Faster R-CNN** with a **ResNet-50 backbone**, fine-tuned for real-time traffic obstacle detection. The model processes video frames to identify various road obstacles—like vehicles and traffic elements—with bounding boxes and counts.
 
-Built upon the **ResNet-50 backbone**, this model utilizes advanced object detection techniques to accurately detect and localize traffic elements like vehicles in real-time scenarios.
-
-> ✅ Achieved an accuracy of **98.26%**  
-> ✅ Real-time obstacle detection with precise bounding boxes  
-> ✅ Custom fine-tuning using **Stochastic Gradient Descent** and **Cross-Entropy Loss**
+> 🎯 **Accuracy Achieved:** 98.26%  
+> ⚡ **Inference Time:** 156 milliseconds per frame  
 
 ---
 
-## 🖥️ System Architecture
+## 🧠 How It Works
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7e764695-5f89-4371-9663-ba95d9818880" alt="System Architecture" width="750"/>
-</p>
+### ✅ Model Used:
+- **Faster R-CNN with ResNet-50**
+- **Loss Functions:** Cross-Entropy, Smooth L1 Loss
+- **Optimizer:** Stochastic Gradient Descent (SGD)
+- **Fine-Tuning:** Transfer learning on a custom traffic dataset
 
 ---
 
-## 📊 Results
+## 🏗️ System Architecture
 
-**Real-time detection performance**:
-- Detects obstacles in video streams.
-- Draws bounding boxes around vehicles.
-- Counts
+![System Architecture](https://github.com/user-attachments/assets/7e764695-5f89-4371-9663-ba95d9818880)
+
+---
+
+## 📽️ Results
+
+- ✔️ Object Detection with precise bounding boxes  
+- ✔️ Vehicle counting from real-time video feeds  
+- ✔️ Robust detection in diverse traffic scenarios  
+
+![Detection Result](https://github.com/user-attachments/assets/f52f730a-c264-4970-bef6-93bb0ea7f42b)
+
+---
+
+## 📂 Repository Structure
+
