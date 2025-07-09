@@ -39,5 +39,4 @@ This project implements a **Modified Faster R-CNN** with a **ResNet-50 backbone*
 
 ---
 
-## 📂 Repository Structure
 
